@@ -9,6 +9,9 @@ while True:
     t1 = input + str(i)
     md51 = hashlib.md5(t1.encode())
     s1 = md51.hexdigest()
+    for e in range(2016):
+        md51 = hashlib.md5(s1.encode())
+        s1 = md51.hexdigest()
     matcher1 = re.compile(r'(\w)\1{2,}')
     m1 = [match.group() for match in matcher1.finditer(s1)]
     if m1:
@@ -18,6 +21,9 @@ while True:
             md52 = hashlib.md5(t2.encode())
             s2 = md52.hexdigest()
             rgx = l + '{5,}'
+            for e in range(2016):
+                md52 = hashlib.md5(s2.encode())
+                s2 = md52.hexdigest()
             matcher2 = re.compile(rgx)
             m2 = [match.group() for match in matcher2.finditer(s2)]
             if m2:

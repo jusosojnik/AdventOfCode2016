@@ -1,11 +1,5 @@
-a = 0
-b = 0
-c = 0
-d = 0
-
 file1 = open('/Users/jusosojnik/Desktop/AdventOfCode2016/12/input.txt', 'r')
 Lines = file1.readlines()
-
 
 lines = []
 check = False
