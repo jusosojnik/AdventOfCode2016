@@ -1,4 +1,4 @@
-file1 = open('/Users/jusosojnik/Desktop/AdventOfCode2016/20/input.txt', 'r')
+file1 = open('input.txt', 'r')
 Lines = file1.readlines()
 
 

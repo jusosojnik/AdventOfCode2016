@@ -1,4 +1,4 @@
-file1 = open('/Users/jusosojnik/Desktop/AdventOfCode2016/12/input.txt', 'r')
+file1 = open('input.txt', 'r')
 Lines = file1.readlines()
 
 lines = []
@@ -8,7 +8,7 @@ for line in Lines:
 
 reg =  {'a': 0,
         'b': 0,
-        'c': 1,
+        'c': 0,
         'd': 0}
 
 i = 0
