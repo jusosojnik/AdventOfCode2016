@@ -39,5 +39,6 @@ fn main() {
         }
         println!("");
     }
+    println!("Answer equals to: 14 + 32 + 20 + 7 + 32 * 5 = 233 (Manualy counted)");
 }
 
